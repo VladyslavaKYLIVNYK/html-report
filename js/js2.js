@@ -48,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
         infoBlock.innerHTML = "<img src='img/CelId_lab2.png'><br>";
     });
     Celectors_lab2.addEventListener('click', function () {
-        infoBlock.innerHTML = "<img src='img/Celector1.png'><br>" +
+        infoBlock.innerHTML = "<img src='img/Celector1.png'><br>"
+            + "<img src='img/Celector1.png'><br>" +
             "<img src='img/Celector2.png'><br>";
     });
     css_lab2.addEventListener('click', function () {
