@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     Meta_lab2.addEventListener('click', function () {
-        infoBlock.textContent = "<h1>Тема: КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ" +
-            "ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ.</h1>" +
-            "<h3>Мета: придбати практичні навички роботи з селекторами, ідентифікаторами,\n" +
+        infoBlock.innerHTML = "<h3>Тема: КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ" +
+            "ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ.</h3>" +
+            "<p>Мета: придбати практичні навички роботи з селекторами, ідентифікаторами,\n" +
             "списками, різноманітними властивостями кольору і фону, зовнішними та\n" +
             "внутрішними відступами, плаваючими елементами, оформленням текстових\n" +
-            "елементів<h3>" +
+            "елементів</p>" +
             "<a href='https://github.com/VladyslavaKYLIVNYK/Pizzeria.git'>Github Pizzeria</a><br>" +
             "<a href='https://github.com/VladyslavaKYLIVNYK/html-report.git'>Github Html report</a>";
     });
