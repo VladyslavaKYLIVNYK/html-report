@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const FixTable = document.getElementById('FixTable');
     const GymiTable = document.getElementById('GymiTable');
     const FixBlock = document.getElementById('FixBlock');
+    const GymiBlock = document.getElementById('GymiBlock');
     const Lab3_3 = document.getElementById('Lab3_3');
     const ScrenshootPage = document.getElementById('ScrenshootPage');
     const HtmlCode = document.getElementById('HtmlCode');
@@ -43,19 +44,26 @@ document.addEventListener('DOMContentLoaded', function () {
     FixTable.addEventListener('click', function () {
         infoBlock.innerHTML = "<img src='img/lab3/FixTable.png'><br>" +
             "<img src='img/lab3/FixTable_css.png'><br>" +
-            "<img src='img/lab3/FixTable_css2.png'><br>";
+            "<img src='img/lab3/FixTable_css2.png'><br>" +
+            "<img src='img/lab3/FixTable_result.png'>";
     });
 
     GymiTable.addEventListener('click', function () {
         infoBlock.innerHTML = "<img src='img/lab3/GymiTable.png'><br>" +
             "<img src='img/lab3/GymiTable_css.png'><br>" +
-            "<img src='img/lab3/GymiTable_css2.png'><br>";
+            "<img src='img/lab3/GymiTable_css2.png'><br>" +
+            "<img src='img/lab3/GymiTable_result.png'>";
     });
 
     FixBlock.addEventListener('click', function () {
         infoBlock.innerHTML = "<img src='img/lab3/FixBlock.png'><br>" +
+            "<img src='img/lab3/FixBlock_result.png'><br>";
+    });
+
+    GymiBlock.addEventListener('click', function () {
+        infoBlock.innerHTML = "<img src='img/lab3/GymiBlock.png'><br>" +
             "<img src='img/lab3/FixBlock_css.png'><br>" +
-            "<img src='img/lab3/FixBlock_css2.png'><br>";
+            "<img src='img/lab3/GymiBlock_result.png'><br>";
     });
 
     ScrenshootPage.addEventListener('click', function () {
