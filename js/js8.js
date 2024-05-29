@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const infoBlock = document.querySelector('.info-block');
 
     Meta_lab8.addEventListener('click', function () {
-        infoBlock.innerHTML = "<h3>Тема: React Basics </h3>";
+        infoBlock.innerHTML = "<h3>Тема: Створення інтерфейсів WEB-застосувань з використанням React </h3>";
     });
 
     Weeks.addEventListener('click', function () {
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     result_lab8.addEventListener('click', function () {
         infoBlock.innerHTML = "<h3>Висновок</h3>" +
-            "<p>Вивчила React.</p>";
+            "<p> дізналася як створювати інтерфейсів WEB-застосувань з використанням React</p>";
     });
 
 

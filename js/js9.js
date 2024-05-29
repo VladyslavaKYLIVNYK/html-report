@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const infoBlock = document.querySelector('.info-block');
 
     Meta_lab9.addEventListener('click', function () {
-        infoBlock.innerHTML = "<h3>Тема: Building RESTful APIs with Node.js and Express </h3>";
+        infoBlock.innerHTML = "<h3>Тема: Створення RESTful API за допомогою Node.js і Express. База даних MongoDB </h3>";
     });
 
     Weeks.addEventListener('click', function () {
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     result_lab9.addEventListener('click', function () {
-        infoBlock.innerHTML = "<p>вивчила Building RESTful APIs with Node.js and Express </p>";
+        infoBlock.innerHTML = "<p>вивчила Building RESTful APIs with Node.js </p>";
     });
 
 });
