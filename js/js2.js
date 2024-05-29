@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     Style_lab2.addEventListener('click', function () {
         infoBlock.innerHTML =
-            "<img src='img/style_lab2.png'><br>";
+            "<img src='img/style_lab2.png'><br>" +
+            "<img src='img/style2_lab2.png'><br>" +
+            "<img src='img/style3_lab2.png'><br>";
     });
 
 
